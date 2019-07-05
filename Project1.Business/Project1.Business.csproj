@@ -1,12 +1,11 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp2.2</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Project1.Business\Project1.Business.csproj" />
+    <ProjectReference Include="..\Project1.Entity\Project1.Entity.csproj" />
   </ItemGroup>
 
 </Project>
