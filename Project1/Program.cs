@@ -1,6 +1,7 @@
 ﻿using Project1.Business;
 using System;
-
+using System.IO;
+using System.Linq;
 
 namespace Project1
 {
@@ -8,9 +9,8 @@ namespace Project1
     {
         static void Main(string[] args)
         {
-            BusUser.LoginUser(null, null);
-
-            Console.ReadKey();
+            var bus = new BusUser();
+            bus.Login();          
         }
     }
 }
